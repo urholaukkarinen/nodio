@@ -1,0 +1,14 @@
+[package]
+name = "nodio-gui-nodes"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+egui = "0.18.1"
+derivative = "2.2.0"
+log = "0.4.17"
+indexmap = "1.8.1"
+
+[dependencies.uuid]
+version = "1.0.0-alpha.1"
+features = ["v4"]

@@ -1,0 +1,21 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cargo",
+			"command": "run",
+			"problemMatcher": [
+				"$rustc"
+			],
+			"args": [
+				"-p",
+				"nodio-app"
+			],
+			"label": "rust: cargo run -p nodio-app",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}

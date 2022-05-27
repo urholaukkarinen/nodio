@@ -1,0 +1,18 @@
+[package]
+name = "nodio-app"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+nodio-core = { path = "../nodio-core" }
+nodio-api = { path = "../nodio-api" }
+nodio-gui-nodes = { path = "../nodio-gui-nodes" }
+
+eframe = { version = "0.18.0", features = ["persistence"] }
+egui-toast = "0.2.0"
+
+pretty_env_logger = "0.4.0"
+log = "0.4.17"
+indexmap = "1.8.1"
+serde_json = "1.0.81"
+parking_lot = "0.12.0"

@@ -1,0 +1,11 @@
+[package]
+name = "nodio-api"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+nodio-core = { path = "../nodio-core" }
+parking_lot = "0.12.0"
+
+[target.'cfg(windows)'.dependencies]
+nodio-win32 = { path = "../nodio-win32" }
